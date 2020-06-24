@@ -1,5 +1,7 @@
 from random import randint as rd
 
+import Numpy as np
+
 
 A=int(input("Ingrese el numero de filas: "))
 
@@ -22,3 +24,11 @@ def crea_arreglo (A,B):
         Cad = Cad+"\n"
     return Cad
 print(str(crea_arreglo(A,B)))
+
+
+def mueve_col():
+    
+    
+    AB=np.array([(34,43,73,25,10),(82,22,12,14,10),(53,94,66,84,10),(35,73,24,34,10)])
+
+    print(AB)
